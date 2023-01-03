@@ -32,7 +32,7 @@
 				<!-- Intro -->
 					<div id="intro">
 						<h1>Goran Latisko Portfolio<br /></h1>
-						<p>Software Engineer skilled in  Java, React, SQL and Python</p>
+						<p>Software Engineer skilled in  Java, SQL, Python, React</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -78,26 +78,55 @@
 								<!-- JMS Bookstore -->
 								<article>
 									<header>										
-										<h2><a href="#">Bookstore Spring JMS<br />
+										<h2><a href="#">SpringBoot JMS - Bookstore<br />
 									</a></h2>
-									<p>In this project, we use Spring JMS to publish book order request from Bookstore Front End to an ActiveMQ queue. The JMS message  is read by Warehouse  which publishes ackonwledgement message  to  a queue and sends updated inventory to a durable topic</p>
+									<p>In this project, we use Spring JMS to publish book order request from Bookstore Front End to an ActiveMQ queue. The JMS message  is read by Warehouse backend which publishes ackonwledgement message to a queue and sends updated inventory to a durable topic</p>
 								</header>
 								<a href="#" class="image main"><img src="images/SpringJMS.PNG" alt="" /></a>
 									<ul class="actions special">
 										<li><a href="https://github.com/glatisko/BookstoreSpringJMS" class="button">View Project</a></li>
 									</ul>
 								</article>
+
+								<!-- HCP scrapy -->
+								<article>
+									<header>										
+										<h2><a href="#">Python Scraping/Cleaning - Real Estate data<br />
+									</a></h2>
+									<p>In this project, real estate property sales data for 450+ condo complex 
+										has been scraped from the county web site. The data reported during the last three (3) tax years, 
+										was cleaned using Python and shown in Tableau.</p>
+								</header>
+								<a href="#" class="image main"><img src="images/housing.jpg" alt="" /></a>
+									<ul class="actions special">
+										<li><a href="https://public.tableau.com/app/profile/goran.latisko/viz/1BDGreenbrier/1BD?publish=yes" class="button">View Project</a></li>
+									</ul>
+								</article>
+
+								
 								
 								<!-- React Workout buddy -->
 								<article>
 									<header>										
 										<h2><a href="#">React Workout Buddy
 									</a></h2>
-									<p>MERN web application for tracking workouts.<br></p>									   
+									<p>In this project, authenticated users use MERN (MongoDB, Express, React, Node) web application to submit and track their workouts. Hosted on Atlas and GCP<br></p>									   
 								</header>
 								<a href="#" class="image main"><img src="images/workout_buddy.PNG" alt="" /></a>
 									<ul class="actions special">										
 										<li><a href="https://workoutbuddy-371713.ue.r.appspot.com/login" class="button">View Project</a></li>
+									</ul>
+								</article>
+
+								<article>
+									<header>										
+										<h2><a href="#">Tableau Dashboard - Annual/Monthly Bank Losses per region<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/tableau_map.PNG" alt="" /></a>
+									<p>Tableau dashboard for bank losses that can be filtered by region. Created from XLS file imported from www.fdic.gov</p>
+									<ul class="actions special">
+										<li><a href="https://public.tableau.com/app/profile/goran.latisko/viz/BookMap_16719897992240/BankPerformance?publish=yes" class="button">View Project</a></li>
 									</ul>
 								</article>
 
@@ -148,41 +177,9 @@
 									</ul>
 								</article>
 							-->
-							<article>
-								<header>										
-									<h2><a href="#">Tableau<br />
-									</a></h2>
-								</header>
-								<a href="#" class="image fit"><img src="images/tableau_map.PNG" alt="" /></a>
-								<p>Tableau dashboard for bank losses</p>
-								<ul class="actions special">
-									<li><a href="https://public.tableau.com/app/profile/goran.latisko/viz/BookMap_16719897992240/BankPerformance?publish=yes" class="button">View Project</a></li>
-								</ul>
-							</article>
+							
 
-								<article>
-									<header>										
-										<h2><a href="#">Data Cleaning in Python<br />
-									</a></h2>
-									<p>In this project, we clean raw housing data and save it into SQLite database</p>
-								</header>
-								<a href="#" class="image main"><img src="images/housing.jpg" alt="" /></a>
-									<ul class="actions special">
-										<li><a href="#" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>										
-										<h2><a href="#">Web Scrapping using Python<br />
-										</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/scraping.jpeg" alt="" /></a>
-									<p>In this project, we scrape housing data from county property tax web site</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">View Project</a></li>
-									</ul>
-								</article>
-								
+							
 								
 							</section>
 
